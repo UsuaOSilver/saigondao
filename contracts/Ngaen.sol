@@ -114,7 +114,7 @@ contract Ngaen {
         if (_amount > allowance[_from][msg.sender]) {
             revert InvalidSpendingAmount();
         }
-        allowance[_from][_msg.sender] -= _amount;
+        allowance[_from][msg.sender] -= _amount;
         _transfer(_from, _to, _amount);
         return true;
     }

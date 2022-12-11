@@ -39,7 +39,7 @@ yarn hardhat deploy --network GOERLI_RPC_URL
         
 ## Verify on etherscan
 
-Auto verification for goerli contracts with your `ETHERSCAN_API_KEY`.
+Auto verification for goerli contracts if `.env` file is set with your `ETHERSCAN_API_KEY`.
 
 Manual verification
 

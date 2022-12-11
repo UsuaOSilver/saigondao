@@ -29,7 +29,7 @@ yarn hardhat deploy
         
 ## Deployment to a testnet or mainnet
 
-1. Setup environment variables
+1. Setup environment variables with `.env.example` file
 2. Get testnet ETH at https://faucets.chain.link/
 3. Deploy
 

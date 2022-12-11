@@ -47,4 +47,8 @@ Manual verification
 yarn hardhat verify --constructor-args arguments DEPLOYED_CONTRACT_ADDRESS
 ```
 
+## ToDo
 
+- [ ] Allowing other address to spend the token
+- [ ] Add burn mechanism
+- [ ] Use this token for Cho Saigon Market

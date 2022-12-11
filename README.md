@@ -22,20 +22,29 @@ yarn
 ## Usage
 
 Deploy:
-        yarn hardhat deploy
+
+```bash
+yarn hardhat deploy
+```
         
 ## Deployment to a testnet or mainnet
 
 1. Setup environment variables
 2. Get testnet ETH at https://faucets.chain.link/
 3. Deploy
-        yarn hardhat deploy --network GOERLI_RPC_URL
+
+```bash
+yarn hardhat deploy --network GOERLI_RPC_URL
+```
         
 ## Verify on etherscan
 
-Auto verification for goerli contracts with your ETHERSCAN_API_KEY.
+Auto verification for goerli contracts with your `ETHERSCAN_API_KEY`.
 
 Manual verification
-        yarn hardhat verify --constructor-args arguments DEPLOYED_CONTRACT_ADDRESS
+
+```bash
+yarn hardhat verify --constructor-args arguments DEPLOYED_CONTRACT_ADDRESS
+```
 
 

@@ -11,7 +11,7 @@ const INITIAL_SUPPLY = "19000000000000000000000000"
 
 const developmentChains = ["hardhat", "localhost"]
 
-export default {
+module.exports = {
     networkConfig,
     developmentChains,
     INITIAL_SUPPLY,
